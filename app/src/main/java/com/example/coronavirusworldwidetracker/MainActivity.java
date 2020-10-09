@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     RequestQueue mQueue;
     TextView totalconfirmed,totalactive,totalrecovered,totalcrtitical,totaldeaths;
     String totalconfirmed1,totalactive1,totalrecovered1,totalcritical1,totaldeaths1;
-    String url="https://corona.lmao.ninja/all";
+    String url="https://corona.lmao.ninja/v3/covid-19/all";
 
 
     @Override
